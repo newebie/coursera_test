@@ -11,15 +11,19 @@ body {
 .col1, .col2, .col3 {
  
   height: 220px;
-  border: 2px solid black;
+  border: 1px solid black;
   background-color: lightgrey;
+  font-family: helvetica;
 }
+
 h1 {
   text-align: center;
 }
+
 #p1, #p2, #p3 {
   margin: 50px 10px 10px 10px;
 }
+
 /* large */
 @media (min-width: 992px) {
   .col1, .col2, .col3 {
@@ -60,8 +64,21 @@ h1 {
 
 .title {
   float: right;
-  border-left: 2px solid black;
-  border-bottom: 2px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
   padding: 5px;
+}
 
+#title-1 {
+  background-color: purple;
+  color: pink;
+}
+
+#title-2 {
+  background-color: orange;
+}
+
+#title-3 {
+  background-color: green;
+  color: yellow;
 }
